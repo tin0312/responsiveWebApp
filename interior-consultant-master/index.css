@@ -156,7 +156,7 @@ span.material-symbols-outlined {
 }
 
 .footer {
-  position: absolute;
+  position: fixed;
   bottom: 10px;
   text-align: center;
   margin: 0 auto;
@@ -231,7 +231,10 @@ span.material-symbols-outlined {
     line-height: 31px;
     font-size: 18px;
   }
- 
+  .footer{
+    position: relative;
+    margin-top: 200px;
+}
   
   
 }
