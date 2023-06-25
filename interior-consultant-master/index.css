@@ -174,15 +174,71 @@ span.material-symbols-outlined {
 
 
 @media only screen and (max-width: 480px) {
-  .menu-list {
+/*Display menu with menu-icon*/ 
+.menu-list {
     display: none;
   }
-  .header-container .material-symbols-outlined {
+
+.menu-list.show {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+  
+}
+.menu-list.show li  {
+  color: #fff;
+  font-size: 24px;
+  padding: 30px;
+
+}
+/*Display body with open-close icon*/
+.main-container.hidden{
+  display: none;
+}
+.footer.hidden{
+  display: none;
+}
+/*Display close-icon*/
+.close-icon {
+  display: none;
+}
+.close-icon.show {
+  display: block;
+  position: absolute;
+  right: 0;
+  
+
+
+
+}
+/*Display menu-icon*/
+.menu-icon.hidden{
+  display: none;
+}
+/*Display logo*/
+.logo.hidden{
+  display: none;
+}
+
+.header-container .material-symbols-outlined {
     display: block;
     font-size: 40px;
+    position: relative;
+
   }
-  .header-container {
+/*Header-Container menu icon*/
+.header-container.new {
+  flex-direction: column;
+  gap: 20vh;
+  
+
+  
+}
+.header-container {
     margin: 4% auto;
+    
   }
   .logo {
     font-size: 16px;
@@ -237,4 +293,4 @@ span.material-symbols-outlined {
 }
   
   
-}
+
