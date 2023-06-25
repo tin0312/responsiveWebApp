@@ -222,6 +222,7 @@ span.material-symbols-outlined {
     display: block;
     font-size: 40px;
     position: relative;
+    cursor: pointer;
 
 }
 /*Header-Container menu icon*/
