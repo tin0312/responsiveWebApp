@@ -186,7 +186,7 @@ span.material-symbols-outlined {
   justify-content: center;
 }
   
-}
+
 .menu-list.show li  {
   color: #fff;
   font-size: 24px;
@@ -208,10 +208,6 @@ span.material-symbols-outlined {
   display: block;
   position: absolute;
   right: 0;
-  
-
-
-
 }
 /*Display menu-icon*/
 .menu-icon.hidden{
@@ -227,69 +223,67 @@ span.material-symbols-outlined {
     font-size: 40px;
     position: relative;
 
-  }
+}
 /*Header-Container menu icon*/
 .header-container.new {
   flex-direction: column;
   gap: 20vh;
-  
 
-  
 }
 .header-container {
     margin: 4% auto;
     
+}
+.logo {
+  font-size: 16px;
+  padding: 7px;
   }
-  .logo {
-    font-size: 16px;
-    padding: 7px;
-  }
-  .main-container {
-    flex-direction: column;
-    height: 100vh;
-    width: 93vw;
-    margin: 0 auto;
+.main-container {
+  flex-direction: column;
+  height: 100vh;
+  width: 93vw;
+  margin: 0 auto;
    
   }
-  .introduction--visual{
-    height: 100%;
-    width: 100%;
-    background-image: url("photo1.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    flex-basis: 50%;
+.introduction--visual{
+  height: 100%;
+  width: 100%;
+  background-image: url("photo1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  flex-basis: 50%;
   }
-  .introduction {
-    gap: 10%;
-  }
-  .introduction--name{
-    font-size: 36px;
-  }
-  .introduction--details{
-    font-size: 16px;
-    line-height: 22px;
-  }
-  .introduction--more {
-    font-size: 14px;
-  }
-  
-  .designer {
-    width: 300px;
-    height: auto;
-    padding:1rem;
-    right: 3.2%;
-    top: 84%;    
-  }
-  .designer--info {
-    font-size: 14px;
-  }
-  .designer--authorization {
-    line-height: 31px;
-    font-size: 18px;
-  }
-  .footer{
-    position: relative;
-    margin-top: 200px;
+.introduction {
+  gap: 10%;
+}
+.introduction--name{
+  font-size: 36px;
+}
+.introduction--details{
+  font-size: 16px;
+  line-height: 22px;
+}
+.introduction--more {
+  font-size: 14px;
+}
+.designer {
+width: 300px;
+height: auto;
+padding:1rem;
+right: 3.2%;
+top: 84%;    
+}
+.designer--info {
+  font-size: 14px;
+}
+.designer--authorization {
+  line-height: 31px;
+  font-size: 18px;
+}
+.footer{
+  position: relative;
+  margin-top: 200px;
+}
 }
   
   
