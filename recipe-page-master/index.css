@@ -1,0 +1,11 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+.header-photo{
+    background-image: url("photo1.png");
+    background-size: cover;
+    width: 969px;
+    height: 470px;
+}
